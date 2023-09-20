@@ -44,7 +44,7 @@ export const App =()=> {
       <>
         <GlobalStyle />
         <Section title={'Please leave feedback'}>
-          <Feedback options={options} leaveFeedback={this.leaveFeedback} />
+          <Feedback options={options} leaveFeedback={leaveFeedback} />
         </Section>
         <Section title="Statistics">
           {totalStats > 0 ? (
